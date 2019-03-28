@@ -11,4 +11,6 @@
 |
 */
 
+Route::view('/', 'static.landing');
+
 Route::view('/login', 'auth.login');
